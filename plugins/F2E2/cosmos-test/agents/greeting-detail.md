@@ -1,7 +1,7 @@
 ---
 name: greeting-detail
 description: > greeting the user with details
-model: Gemini 3 Flash
+model: Gemini 3 Flash (Preview)
 tools:
   [
     "agent",
