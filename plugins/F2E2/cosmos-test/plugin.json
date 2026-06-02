@@ -1,6 +1,6 @@
 {
   "name": "cosmos-test",
-  "description": "F2E2 team agents for CMS development workflow",
+  "description": "F2E2 greeting agents",
   "version": "1.0.0",
   "author": { "name": "asus-cms" },
   "agents": "agents/"
