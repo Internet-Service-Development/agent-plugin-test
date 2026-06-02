@@ -15,7 +15,7 @@ tools:
 user-invocable: false
 ---
 
-📖 **[問候語規則](../../docs/rules.md)**
+📖 **[問候語規則](../docs/rules.md)**
 
 Use "plugins\F2E2\cosmos-test\skills\greeting\SKILL.md" to randomly greets the user with creative content within 10 words.
 
