@@ -5,8 +5,17 @@ description: >
   Use when: creating a new page, adding a route, scaffolding a feature in any Cosmos app.
   Triggers: new page, create page, add feature, scaffold page, new route.
 model: Claude Sonnet 4.6 (copilot)
-tools: ['agent', 'edit', 'read', 'search', 'figma/*', 'atlassian-jira-dc/*', 'confluence-server/*']
-agents: ['explorer-structure', 'explorer-data']
+tools:
+  [
+    "agent",
+    "edit",
+    "read",
+    "search",
+    "figma/*",
+    "atlassian-jira-dc/*",
+    "confluence-server/*"
+  ]
+agents: ["explorer-structure", "explorer-data"]
 ---
 
 # MANDATORY FIRST LINE
@@ -163,7 +172,7 @@ After user confirmation, create files using the `edit` tool in the following ord
 
 Quality rules:
 
-- [code-quality-rules.md](../../docs/scaffolding/playbooks/code-quality-rules.md)
+- [code-quality-rules.md](../docs/scaffolding/playbooks/code-quality-rules.md)
 
 ## Phase 5: Review
 
@@ -171,7 +180,7 @@ After implementation, self-review and report.
 
 Required checks:
 
-- [done-checklist.md](../../docs/scaffolding/checklists/done-checklist.md)
+- [done-checklist.md](../docs/scaffolding/checklists/done-checklist.md)
 - Relevant playbooks for touched areas (router/api/types/folder/ui/permissions)
 
 Also verify in EACH created/edited file:
