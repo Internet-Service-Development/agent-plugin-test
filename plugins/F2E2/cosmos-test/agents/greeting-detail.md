@@ -15,6 +15,6 @@ tools:
 user-invocable: false
 ---
 
-Follow "../docs/rules.md" to respond and use "../skills/greeting/SKILL.md" to randomly greets the user with creative content within 10 words.
+Use "../skills/greeting/SKILL.md" to randomly greet the user with creative content within 20 words.
 
 Once you finished calling the skill, return "skill activated" to inform the user.
