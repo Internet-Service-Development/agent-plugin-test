@@ -1,7 +1,7 @@
 ---
 name: greeting-detail
 description: > greeting the user with details
-model: Claude Sonnet 4.6 (copilot)
+model: Gemini 3 Flash
 tools:
   [
     "agent",
