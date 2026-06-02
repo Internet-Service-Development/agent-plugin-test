@@ -1,0 +1,35 @@
+{
+  "type": "object",
+  "properties": {
+    "targetUserEmail": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "jobName": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "assignee": {
+      "type": "string"
+    },
+    "dateRange": {
+      "type": "string"
+    },
+    "sentAt": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "targetUserEmail",
+    "jobName",
+    "title",
+    "summary"
+  ]
+}

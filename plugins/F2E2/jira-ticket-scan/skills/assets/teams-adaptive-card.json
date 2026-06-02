@@ -1,0 +1,56 @@
+{
+  "type": "AdaptiveCard",
+  "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.5",
+  "speak": "Jira daily summary is ready.",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "@{triggerBody()?['title']}",
+      "size": "Large",
+      "weight": "Bolder",
+      "wrap": true
+    },
+    {
+      "type": "FactSet",
+      "spacing": "Small",
+      "facts": [
+        {
+          "title": "Assignee",
+          "value": "@{triggerBody()?['assignee']}"
+        },
+        {
+          "title": "Date range",
+          "value": "@{triggerBody()?['dateRange']}"
+        },
+        {
+          "title": "Job",
+          "value": "@{triggerBody()?['jobName']}"
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "SUMMARY",
+      "wrap": true,
+      "size": "Small",
+      "isSubtle": true,
+      "spacing": "Medium"
+    },
+    {
+      "type": "Container",
+      "style": "emphasis",
+      "showBorder": true,
+      "roundedCorners": true,
+      "spacing": "Small",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "@{triggerBody()?['summary']}",
+          "wrap": true,
+          "spacing": "Small"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "aocc-cookbook",
+  "description": "Cosmos CMS plugin marketplace for GitHub repository",
+  "plugins": [
+    {
+      "name": "F2E2-eysoos-icons",
+      "version": "1.0.0",
+      "source": "./plugins/F2E2/eysoos-icons/skills",
+      "description": "@eysoos/icons SVG 圖標庫 — ASUS CMS 設計系統圖示元件"
+    },
+    {
+      "name": "F2E2-eysoos-ui-v2",
+      "version": "1.0.0",
+      "source": "./plugins/F2E2/eysoos-ui-v2/skills",
+      "description": "@eysoos/prisma React UI 元件庫（第二代）— ASUS CMS 設計系統元件"
+    },
+    {
+      "name": "F2E2-eysoos-ui-v2-reference-doc",
+      "version": "1.0.0",
+      "source": "./plugins/F2E2/eysoos-ui-v2-reference-doc/skills",
+      "description": "產生或更新 @eysoos/prisma 元件的 reference markdown 文件"
+    },
+    {
+      "name": "F2E2-jira-ticket-scan",
+      "version": "1.0.0",
+      "source": "./plugins/F2E2/jira-ticket-scan/skills",
+      "description": "掃描並摘要 Jira 每日更新，用於 daily-standup 和進度回報"
+    }
+  ]
+}
