@@ -34,6 +34,12 @@
       "version": "1.0.0",
       "source": "cosmos-new-page-scaffolder",
       "description": "Automated scaffolding expert for new pages in the Cosmos monorepo. Streamlines the creation of new page structures, ensuring consistency and adherence to best practices across the codebase."
+    },
+    {
+      "name": "F2E2-cosmos-test",
+      "version": "1.0.0",
+      "source": "cosmos-test",
+      "description": "Greet the user with random creative content within 10 words."
     }
   ]
 }
