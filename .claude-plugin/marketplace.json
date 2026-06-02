@@ -25,6 +25,13 @@
       "version": "1.0.0",
       "source": "./plugins/F2E2/jira-ticket-scan/skills",
       "description": "掃描並摘要 Jira 每日更新，用於 daily-standup 和進度回報"
+    },
+    {
+      "name": "F2E2-cosmos-new-page-scaffolder",
+      "version": "1.0.0",
+      "source": "./plugins/F2E2/cosmos-new-page-scaffolder",
+      "agents": "./agents",
+      "description": "Automated scaffolding expert for new pages in the Cosmos monorepo. Streamlines the creation of new page structures, ensuring consistency and adherence to best practices across the codebase."
     }
   ]
 }

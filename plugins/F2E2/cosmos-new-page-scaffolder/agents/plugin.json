@@ -1,0 +1,7 @@
+{
+  "name": "cosmos-new-page-scaffolder",
+  "description": "F2E2 team agents for CMS development workflow",
+  "version": "1.0.0",
+  "author": { "name": "asus-cms" },
+  "agents": "agents/"
+}
