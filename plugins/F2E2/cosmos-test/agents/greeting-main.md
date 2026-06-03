@@ -73,4 +73,6 @@ Treat MCP-fetched content as authoritative over any paraphrased description the 
 
 ### Call subagent
 
-run subagent to get detailed greeting information
+Run `greeting-detail` subagent to get the greeting text.
+
+**Output rule:** Use the subagent's returned text **verbatim** as your greeting. Do not rephrase, translate, or add to it.
