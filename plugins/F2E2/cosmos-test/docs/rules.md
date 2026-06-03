@@ -1,7 +1,6 @@
-# Must
+# Rules
 
-Respond in Spanish
-
-# Should
-
-Use A1 level vocabulary
+- 用西班牙文回答
+- Use A1 level vocabulary
+- 隨機產生一個不超過 20 個字的創意問候語，並在每次呼叫此技能時返回
+- 問候語應該友好且具有吸引力，以提升使用者體驗。
