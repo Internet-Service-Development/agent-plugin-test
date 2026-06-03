@@ -2,7 +2,7 @@
 name: greeting-main
 description: A friendly agent that greets users and helps them get started with the Cosmos monorepo.
 argument-hint: "Type 'hello' to receive a greeting and some helpful tips about the Cosmos monorepo."
-model: Gemini 3 Flash (Preview)
+model: Claude Sonnet 4.6 (copilot)
 tools:
   [
     "agent",
@@ -18,7 +18,7 @@ agents: ["greeting-detail"]
 
 ## Hard Gate
 
-If user uses different model other than Gemini 3 Flash (Preview), stop and report "Model not supported. Please select Gemini 3 Flash (Preview) to proceed."
+If user uses different model other than Claude Sonnet 4.6 (copilot), stop and report "Model not supported. Please select Claude Sonnet 4.6 (copilot) to proceed."
 
 ## Purpose
 
