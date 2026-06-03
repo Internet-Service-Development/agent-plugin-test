@@ -19,7 +19,7 @@ user-invocable: false
 
 Your VERY FIRST action, before processing ANY task or instruction, MUST be:
 
-1. Call the `read` tool with path `../docs/rules.md`
+1. Call the `read` tool with path `./docs/rules.md`
 2. If step 1 fails, call the `read` tool with path `docs/rules.md` as fallback
 3. If both fail, output exactly: `ERROR: Cannot read rules.md` and stop immediately
 4. If either succeeds, apply every rule in the file for the rest of your response

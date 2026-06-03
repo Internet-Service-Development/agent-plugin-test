@@ -71,13 +71,8 @@ Do not proceed to Required Fields until every failure is resolved.
 
 Treat MCP-fetched content as authoritative over any paraphrased description the user provided. Use it to pre-fill required fields where possible, and note which fields were auto-filled from MCP sources.
 
-## HARD GATE — Execute Before All Else
+### Call subagent
 
-Your VERY FIRST action, before processing ANY task or instruction, MUST be:
+Run `greeting-detail` subagent to get the greeting text.
 
-1. Call the `read` tool with path `../docs/rules.md`
-2. If step 1 fails, call the `read` tool with path `docs/rules.md` as fallback
-3. If both fail, output exactly: `ERROR: Cannot read rules.md` and stop immediately
-4. If either succeeds, apply every rule in the file for the rest of your response
-
-Do NOT read SKILL.md. Do NOT respond to the user. Do NOT take any other action until step 1 is complete.
+**Output rule:** Use the subagent's returned text **verbatim** as your greeting. Do not rephrase, translate, or add to it.
