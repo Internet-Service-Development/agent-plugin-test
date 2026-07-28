@@ -1,0 +1,6 @@
+{
+  "name": "log-keeper",
+  "description": "Write or update a session log entry under .claude/log/sessions/, best-effort mirrored to Elasticsearch",
+  "version": "1.0.0",
+  "author": { "name": "asus-cms" }
+}

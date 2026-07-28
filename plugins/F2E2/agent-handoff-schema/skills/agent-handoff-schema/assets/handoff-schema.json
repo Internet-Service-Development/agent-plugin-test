@@ -1,0 +1,30 @@
+{
+  "app_name": "<string>",
+  "feature_name": "<string>",
+  "payload": {
+    "phase": "<AgentName>",
+    "context_pack": [
+      {
+        "name": "[agent|subagent]: <AgentName>",
+        "task_title": "one sentence — what was done in this entry",
+        "decision": "the decision made, in detail",
+        "reason": "step-by-step reasoning behind the decision",
+        "modified": [
+          {
+            "reason": "what triggered a correction to this decision after the fact",
+            "changed_files": [
+              {
+                "path": "`{path}`",
+                "description": "[add|modify|delete] file, brief description"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "body": {
+      "your-agent-own-key1": "<any>",
+      "your-agent-own-key2": "<any>"
+    }
+  }
+}

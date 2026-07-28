@@ -40,6 +40,42 @@
       "version": "1.0.0",
       "source": "cosmos-test",
       "description": "Greet the user with random creative content within 10 words."
+    },
+    {
+      "name": "F2E2-agent-handoff-schema",
+      "version": "1.0.0",
+      "source": "agent-handoff-schema",
+      "description": "Shared handoff envelope shell used by every agent in the handoff pipeline (data-gathering, planning, coding-agent, ...)"
+    },
+    {
+      "name": "F2E2-handoff-sync-in",
+      "version": "1.0.0",
+      "source": "handoff-sync-in",
+      "description": "Pull the shared agent-handoff folder (.claude/handoff/) from the per-issue handoff branch into the runner working tree, read-only"
+    },
+    {
+      "name": "F2E2-handoff-sync-out",
+      "version": "1.0.0",
+      "source": "handoff-sync-out",
+      "description": "Write an agent's owned handoff/session files back to the per-issue handoff branch, from an isolated worktree"
+    },
+    {
+      "name": "F2E2-log-keeper",
+      "version": "1.0.0",
+      "source": "log-keeper",
+      "description": "Write or update a session log entry under .claude/log/sessions/, best-effort mirrored to Elasticsearch"
+    },
+    {
+      "name": "F2E2-planning-template",
+      "version": "1.0.0",
+      "source": "planning-template",
+      "description": "Plan document template for the planning agent's Design phase"
+    },
+    {
+      "name": "F2E2-planning-agent",
+      "version": "1.0.0",
+      "source": "planning-agent",
+      "description": "Cloud planning agent — pulls the data-gathering handoff, validates it, drafts an implementation plan for human review, and writes the planning handoff back to the branch"
     }
   ]
 }

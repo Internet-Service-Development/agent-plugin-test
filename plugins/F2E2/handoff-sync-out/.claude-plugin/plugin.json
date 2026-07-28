@@ -1,0 +1,6 @@
+{
+  "name": "handoff-sync-out",
+  "description": "Write an agent's owned handoff/session files back to the per-issue handoff branch, from an isolated worktree",
+  "version": "1.0.0",
+  "author": { "name": "asus-cms" }
+}

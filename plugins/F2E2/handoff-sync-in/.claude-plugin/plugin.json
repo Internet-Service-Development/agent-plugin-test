@@ -1,0 +1,6 @@
+{
+  "name": "handoff-sync-in",
+  "description": "Pull the shared agent-handoff folder (.claude/handoff/) from the per-issue handoff branch into the runner working tree, read-only",
+  "version": "1.0.0",
+  "author": { "name": "asus-cms" }
+}

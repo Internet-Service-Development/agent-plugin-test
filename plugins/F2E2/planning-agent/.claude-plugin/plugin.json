@@ -1,0 +1,13 @@
+{
+  "name": "planning-agent",
+  "description": "Cloud planning agent — pulls the data-gathering handoff, validates it, drafts an implementation plan for human review, and writes the planning handoff back to the branch",
+  "version": "1.0.0",
+  "author": { "name": "asus-cms" },
+  "dependencies": [
+    "planning-template",
+    "agent-handoff-schema",
+    "handoff-sync-in",
+    "handoff-sync-out",
+    "log-keeper"
+  ]
+}

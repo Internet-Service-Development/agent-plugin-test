@@ -1,0 +1,6 @@
+{
+  "name": "agent-handoff-schema",
+  "description": "Shared handoff envelope shell used by every agent in the handoff pipeline (data-gathering, planning, coding-agent, ...)",
+  "version": "1.0.0",
+  "author": { "name": "asus-cms" }
+}
